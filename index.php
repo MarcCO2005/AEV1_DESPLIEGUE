@@ -57,47 +57,36 @@ if ($_SESSION['letras_acertadas'] == $_SESSION['palabra']) {
     <title>Ahorcado</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f4f4f9;
-            color: #333;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1e1e2f;
+            color: #e4e4e7;
             margin: 0;
             padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
         }
         h1 {
-            color: #444;
-        }
-        form {
-            margin: 20px 0;
-        }
-        label {
-            font-weight: bold;
-        }
-        input[type="text"] {
-            padding: 5px;
-            font-size: 16px;
-            margin-right: 10px;
+            color: #ff6b6b;
+            font-size: 3rem;
         }
         button {
-            background-color: #007bff;
-            color: white;
+            background-color: #ff6b6b;
+            color: #fff;
             border: none;
             padding: 10px 20px;
-            font-size: 16px;
+            font-size: 1.2rem;
+            border-radius: 5px;
             cursor: pointer;
+            transition: background-color 0.3s;
         }
         button:hover {
-            background-color: #0056b3;
-        }
-        p {
-            font-size: 18px;
+            background-color: #e53935;
         }
         a {
-            color: #007bff;
             text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
         }
     </style>
 </head>
